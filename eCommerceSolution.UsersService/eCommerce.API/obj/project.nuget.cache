@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pLntJG+QG2s=",
+  "dgSpecHash": "jM21VGl+jqo=",
   "success": true,
   "projectFilePath": "/Users/rickhuang668/Projects/Microservices-Based-Stack/eCommerceSolution.UsersService/eCommerce.API/eCommerce.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/rickhuang668/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.0/microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
