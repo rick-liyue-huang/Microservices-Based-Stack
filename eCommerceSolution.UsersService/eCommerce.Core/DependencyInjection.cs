@@ -1,3 +1,5 @@
+using eCommerce.Core.ServiceContracts;
+using eCommerce.Core.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace eCommerce.Core;
@@ -9,7 +11,8 @@ public static class DependencyInjection
         // Core service registrations go here
         // TODO: Add services to the IoC container , Core services often include business logic,
         // domain models, and application services that encapsulate the main functionality of the application.
-        
+
+        services.AddTransient<IUserService, UserService>();
         return services;
     }
 }
